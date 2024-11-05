@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-image: url(bg.jpg)
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .container img {
+      height: 50%;
+      animation: rotate 2s infinite linear;
+  }
+/* .container img {
+    height: 50%;
+    transform: rotate(90deg);
+} */
